@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Game
+comment0.text=\r\n\ \ This\ class\ is\ the\ game\ class\ of\ the\ "World\ of\ Zuul"\ application.\ \r\n\ \ "World\ of\ Zuul"\ is\ a\ very\ simple,\ text\ based\ adventure\ game.\ \ Users\ \r\n\ \ can\ walk\ around\ some\ scenery.\ That's\ all.\ It\ should\ really\ be\ extended\ \r\n\ \ to\ make\ it\ more\ interesting\!\r\n\ \r\n\ \ This\ class\ creates\ the\ game\ environment\ consisting\ \r\n\ \ of\ a\ simple\ labyrinth\ of\ rooms\ and\ returns\ its\ Instance\ to\ the\ player.\r\n\ \ It\ also\ welcomes\ and\ farewells\ the\ player.\r\n\ \r\n\ @author\ \ Michael\ Kolling\ and\ David\ J.\ Barnes,\ modified\ by\ Wolfgang\ Renz\r\n\ @version\ 2011.07.31,\ 2019.05.16\r\n
+comment1.params=
+comment1.target=Game()
+comment1.text=\r\n\ Create\ the\ game\ and\ initialise\ its\ internal\ map.\r\n
+comment2.params=
+comment2.target=java.util.HashMap\ getPlayersMap()
+comment3.params=
+comment3.target=Game\ getGame()
+comment4.params=
+comment4.target=Room\ createRooms()
+comment4.text=\r\n\ Create\ all\ the\ rooms\ and\ link\ their\ exits\ together.\r\n
+comment5.params=player
+comment5.target=void\ welcome(Player)
+comment5.text=\r\n\ Print\ out\ the\ opening\ message\ for\ the\ player.\r\n
+comment6.params=p
+comment6.target=void\ farewell(Player)
+comment7.params=p
+comment7.target=void\ addPlayer(Player)
+comment8.params=p
+comment8.target=void\ deletePlayer(Player)
+comment9.params=
+comment9.target=void\ notifyPlayers()
+numComments=10

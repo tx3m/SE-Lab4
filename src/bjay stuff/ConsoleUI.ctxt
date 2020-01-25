@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=ConsoleUI
+comment0.text=\r\n\ This\ class\ is\ the\ player's\ console\ user\ interface\ class\ \r\n\ that\ consists\ of\ the\ main\ player\ loop\ (Renz),\r\n\ a\ parser\ reading\ from\ System.in\ (K\u00F6lling/Barnes)\r\n\ and\ prints\ to\ System.out\ (Renz).\r\n\ "World\ of\ Zuul"\ is\ a\ very\ simple,\ text\ based\ adventure\ game.\ \ \r\n\r\n\ The\ parser\ reads\ user\ input\ and\ tries\ to\ interpret\ it\ as\ an\ "Adventure"\r\n\ command.\ Every\ time\ it\ is\ called\ it\ reads\ a\ line\ from\ the\ terminal\ and\r\n\ tries\ to\ interpret\ the\ line\ as\ a\ two\ word\ command.\ It\ returns\ the\ command\r\n\ as\ an\ object\ of\ class\ Command.\r\n\r\n\ The\ parser\ has\ a\ set\ of\ known\ command\ words.\ It\ checks\ user\ input\ against\r\n\ the\ known\ commands,\ and\ if\ the\ input\ is\ not\ one\ of\ the\ known\ commands,\ it\r\n\ returns\ a\ command\ object\ that\ is\ marked\ as\ an\ unknown\ command.\r\n\ \r\n\ @author\ \ Michael\ Kolling\ and\ David\ J.\ Barnes,\ modified\ by\ Wolfgang\ Renz\r\n\ @version\ 2011.07.31,\ 2019.05.16\r\n
+comment1.params=p
+comment1.target=ConsoleUI(Player)
+comment2.params=
+comment2.target=void\ start()
+comment3.params=s
+comment3.target=void\ println(java.lang.String)
+comment4.params=
+comment4.target=Command\ getCommand()
+numComments=5

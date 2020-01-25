@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=GUI
+comment0.text=\r\n\ Most\ simple\ Zuul\ graphical\ user\ interface\ class.\r\n\ It\ can\ be\ used\ as\ an\ alternative\ to\ the\ console\ text\ interface.\r\n\ Four\ buttons\ allow\ the\ player\ to\ walk\ to\ a\ neighboring\ room.\r\n\ The\ text\ area\ gives\ feedback\ to\ the\ user.\r\n\r\n\ @author\ Wolfgang\ Renz\r\n\ @version\ 2019.05.16\r\n
+comment1.params=p
+comment1.target=GUI(Player)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ GUI\r\n
+comment2.params=name\ len\ wid
+comment2.target=void\ createFrame(java.lang.String,\ int,\ int)
+comment3.params=direction
+comment3.target=javax.swing.JButton\ activeButton(java.lang.String)
+comment4.params=e
+comment4.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment5.params=s
+comment5.target=void\ println(java.lang.String)
+comment6.params=
+comment6.target=void\ start()
+comment7.params=frameToClose
+comment7.target=void\ closeWindow(javax.swing.JFrame)
+numComments=8

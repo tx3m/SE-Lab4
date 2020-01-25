@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=PlayerUI
+comment0.text=\r\n\ Most\ simple\ Interface\ PlayerUI.\r\n\ Currently,\ only\ text\ writing\ is\ supported,\r\n\ because\ the\ rest\ of\ the\ game\ is\ text-output\ oriented.\r\n\ \r\n\ For\ future\ versions,\ the\ game\ and\ command\ classes\ \r\n\ should\ communicate\ semantics\ to\ the\ player\ who\ can\ forward\ it\r\n\ in\ an\ appropriate\ way\ to\ the\ PlayerUI\r\n\r\n\ @author\ Wolfgang\ Renz\r\n\ @version\ 2019.05.16\r\n
+comment1.params=s
+comment1.target=void\ println(java.lang.String)
+comment2.params=
+comment2.target=void\ start()
+numComments=3

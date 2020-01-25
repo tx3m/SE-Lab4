@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Command
+comment0.text=\r\n\ This\ class\ is\ an\ abstract\ superclass\ for\ all\ command\ classes\ in\ the\ game.\r\n\ Each\ user\ command\ is\ implemented\ by\ a\ specific\ command\ subclass.\r\n\r\n\ Objects\ of\ class\ Command\ can\ store\ an\ optional\ argument\ word\ (a\ second\r\n\ word\ entered\ on\ the\ command\ line).\ If\ the\ command\ had\ only\ one\ word,\ \r\n\ then\ the\ second\ word\ is\ <null>.\r\n\ \r\n\ @author\ Michael\ Kolling\ and\ David\ J.\ Barnes\r\n\ @version\ 2011.07.31\r\n
+comment1.params=
+comment1.target=Command()
+comment1.text=\r\n\ Create\ a\ command\ object.\ First\ and\ second\ word\ must\ be\ supplied,\ but\r\n\ either\ one\ (or\ both)\ can\ be\ null.\ The\ command\ word\ should\ be\ null\ to\r\n\ indicate\ that\ this\ was\ a\ command\ that\ is\ not\ recognised\ by\ this\ game.\r\n
+comment2.params=
+comment2.target=java.lang.String\ getSecondWord()
+comment2.text=\r\n\ Return\ the\ second\ word\ of\ this\ command.\ If\ no\r\n\ second\ word\ was\ entered,\ the\ result\ is\ null.\r\n
+comment3.params=
+comment3.target=boolean\ hasSecondWord()
+comment3.text=\r\n\ Check\ whether\ a\ second\ word\ was\ entered\ for\ this\ \r\n\ command.\r\n
+comment4.params=secondWord
+comment4.target=void\ setSecondWord(java.lang.String)
+comment4.text=\r\n\ Define\ the\ second\ word\ of\ this\ command\ (the\ word\r\n\ entered\ after\ the\ command\ word).\ Null\ indicates\ that\ \r\n\ there\ was\ no\ second\ word.\r\n
+comment5.params=player
+comment5.target=boolean\ execute(Player)
+comment5.text=\r\n\ Execute\ this\ command.\ A\ flag\ is\ returned\ indicating\ whether\r\n\ the\ game\ is\ over\ as\ a\ result\ of\ this\ command.\r\n\ \r\n\ @return\ True,\ if\ game\ should\ exit;\ false\ otherwise.\r\n
+numComments=6

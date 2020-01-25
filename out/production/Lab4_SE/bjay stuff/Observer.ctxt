@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Observer
+comment0.text=\r\n\ Write\ a\ description\ of\ interface\ Observer\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=room
+comment1.target=void\ update(Room)
+comment1.text=\r\n\ This\ method\ will\ update\ all\ Players\ with\ the\ changes\ in\ Game\r\n
+comment2.params=s
+comment2.target=void\ println(java.lang.String)
+numComments=3
